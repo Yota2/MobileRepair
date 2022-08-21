@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volt Repair Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="icons/logo.png" alt="Volt Repair Group">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#Repair by brand">Repair by brand</a></li>
+                        <li><a href="#Products">Products</a></li>
+                        <li><a href="#Accessoriest">Accessories</a></li>
+                       
+                    </ul>
+                </nav>
+                <a class="menu-icon" onclick="menu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner section -->
+    <section id="banner">
+        <div class="banner-img-wrapper">
+
+            <div class="banner-wrapper container">
+                <div class="banner-content">
+                    <h1> Jasper Corporation <br> delivers </h1>
+                    <p><span class="highlight-banner"> Customised, cost-effective </span> & <span
+                            class="highlight-banner">
+                            efficient</span> services on these domains:</p>
+                </div>
+            </div>
+
+            <div class="banner-buttons container">
+                <a href="#aerospace">
+                    <div class="icon-aero"></div>
+                    <img src="icons/plane.svg" alt="">
+                    Aerospace
+                </a>
+                <a href="#engineer">
+                    <div class="icon-end"></div>
+                    <img src="icons/engineering.png" alt="">
+                    Engineering Solutions
+                </a>
+                <a href="#procurement">
+                    <div class="icon-pro"></div>
+                    <img src="icons/procurement.png" alt="">
+                    Procurement
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aerospace section -->
+    <section id="aerospace" class="main-category">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Aerospace</h1>
+            </div>
+            <p class="sub-title text-center">Jasper Engineering Solutions delivers innovative and high-quality
+                engineering solutions in the area of:</p>
+            <div class="tab-wrapper">
+                <div class="tab">
+                    <button class="tablinks aero-select tab-active"
+                        onclick="openCity(event, 'aircraft-mod', 'aero-tab','aero-select')">Aircraft
+                        modification</button>
+                    <button class="tablinks aero-select"
+                        onclick="openCity(event, 'camo-man', 'aero-tab','aero-select')">CAMO management</button>
+                    <button class="tablinks aero-select"
+                        onclick="openCity(event, 'aero-eng-service', 'aero-tab','aero-select')">Aero Engine
+                        Services</button>
+                    <button class="tablinks aero-select"
+                        onclick="openCity(event, 'aircraft-mod', 'aero-tab','aero-select')">Aircraft
+                        modification</button>
+                    <button class="tablinks aero-select"
+                        onclick="openCity(event, 'camo-man','aero-tab', 'aero-select')">CAMO management</button>
+
+                </div>
+                <div id="aircraft-mod" class="tabcontent aero-tab">
+                    <!-- content -->
+                    <div class="filter-wrapper">
+                        <div class="filter-img">
+                            <img src="images/sub-pic.jpg" alt="">
+                        </div>
+                        <div class="filter-content">
+                            <p>We provide numerous advanced Aircraft modification, upgrade and customized solution per
+                                customer requirement. our experience thought us how to deliver enhanced, innovative and
+                                economical
+                                Aircraft upgrade and modifications.
+                                <br><br>
+                                In the challenging and <span class="content-highlight">dynamic</span> Aerospace industry
+                                business, it is important to provide superior value and unparalleled support to our
+                                customers, while systematically
+                                improving the Safety, Security and Efficiency of your fleets, products and processes.
+                                Let us know with what we can help you.
+                            </p>
+                            <img src="icons/plane.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="camo-man" class="tabcontent aero-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+                </div>
+                <div id="aero-eng-service" class="tabcontent aero-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering section -->
+    <section id="engineer" class="main-category">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Engineering solutions</h1>
+            </div>
+            <p class="sub-title text-center">Jasper Engineering Solutions delivers innovative and high-quality
+                engineering solutions in the area of:</p>
+            <div class="tab-wrapper">
+                <div class="tab">
+                    <button class="tablinks eng-select tab-active"
+                        onclick="openCity(event, 'aircraft-mod1','eng-tab','eng-select')">Aircraft
+                        modification</button>
+                    <button class="tablinks eng-select"
+                        onclick="openCity(event, 'camo-man1','eng-tab','eng-select')">CAMO management</button>
+                    <button class="tablinks eng-select"
+                        onclick="openCity(event, 'aero-eng-service1','eng-tab','eng-select')">Aero Engine
+                        Services</button>
+                </div>
+                <div id="aircraft-mod1" class="tabcontent eng-tab">
+                    <!-- content -->
+                    <div class="filter-wrapper">
+                        <div class="filter-img">
+                            <img src="images/sub-pic.jpg" alt="">
+                        </div>
+
+                        <div class="filter-content">
+                            <p>We provide numerous advanced Aircraft modification, upgrade and customized solution per
+                                customer requirement. our experience thought us how to deliver enhanced, innovative and
+                                economical
+                                Aircraft upgrade and modifications.
+                                <br><br>
+                                In the challenging and <span class="content-highlight">dynamic</span> Aerospace industry
+                                business, it is important to provide superior value and unparalleled support to our
+                                customers, while systematically
+                                improving the Safety, Security and Efficiency of your fleets, products and processes.
+                                Let us know with what we can help you.
+                            </p>
+                            <img src="icons/engineering.png" class="rotate-left" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="camo-man1" class="tabcontent eng-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+
+                </div>
+                <div id="aero-eng-service1" class="tabcontent eng-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Procurement-->
+    <section id="procurement" class="main-category">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Procurement</h1>
+            </div>
+            <p class="sub-title text-center">Jasper Engineering Solutions delivers innovative and high-quality
+                engineering solutions in the area of:</p>
+            <div class="tab-wrapper">
+                <div class="tab">
+                    <button class="tablinks proc-select tab-active"
+                        onclick="openCity(event, 'aircraft-mod2','procurment-tab', 'proc-select')">Aircraft
+                        modification</button>
+                    <button class="tablinks proc-select"
+                        onclick="openCity(event, 'camo-man2','procurment-tab', 'proc-select')">CAMO management</button>
+                    <button class="tablinks proc-select"
+                        onclick="openCity(event, 'aero-eng-service2','procurment-tab', 'proc-select')">Aero Engine
+                        Services</button>
+                </div>
+                <div id="aircraft-mod2" class="tabcontent procurment-tab">
+                    <!-- content -->
+                    <div class="filter-wrapper">
+                        <div class="filter-img">
+                            <img src="images/sub-pic.jpg" alt="">
+                        </div>
+
+                        <div class="filter-content">
+                            <p>We provide numerous advanced Aircraft modification, upgrade and customized solution per
+                                customer requirement. our experience thought us how to deliver enhanced, innovative and
+                                economical
+                                Aircraft upgrade and modifications.
+                                <br><br>
+                                In the challenging and <span class="content-highlight">dynamic</span> Aerospace industry
+                                business, it is important to provide superior value and unparalleled support to our
+                                customers, while systematically
+                                improving the Safety, Security and Efficiency of your fleets, products and processes.
+                                Let us know with what we can help you.
+                            </p>
+                            <img src="icons/procurement.png" class="rotate-left" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="camo-man2" class="tabcontent procurment-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+
+                </div>
+                <div id="aero-eng-service2" class="tabcontent procurment-tab">
+                    <p style="margin-top: 20px;" class="text-center">This page is under construction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="main-category">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Who we are</h1>
+            </div>
+            <!-- content -->
+            <div class="about-main-wrapper">
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <p>Jasper Corporation delivers advanced solutions mainly in our three domains: <span
+                                class="content-highlight">Aerospace, Engineering Solutions
+                                and Procurement</span>. Our teams of professionals include a group of qualified and
+                            specialized Engineers and Project
+                            managers; who has more than 10 years of experience in integration, development,
+                            commercializing and management
+                            of the state of the art technology.
+                            <br><br>
+                            Our specialists not only make use of the traditional analytical way of solving problems, but
+                            research other avenues that most other companies
+                            overlook. Embracing the entrepreneurial spirit, the team is comprised of knowledgeable,
+                            self-motivated professionals who work tirelessly and
+                            faithfully to satisfy our customers.
+                        </p>
+                    </div>
+
+                    <div class="about-content about-photo">
+                        <p class="text-center">Jasper engineering team </p>
+                        <img src="images/sub-pic.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="about-wrapper">
+                    <div class="about-content">
+                        <p>The key factor to our success is innovation. With the highest of ethical standards and pure
+                            dedication to go above and beyond the standard of
+                            excellence, we aspire to meet any of the stringent technical and operational requirements in
+                            the world, besides addressing the most sensitive
+                            environmental issues in our entire three business domain.
+                            <br><br>
+                            Jasper Corporation works in close collaboration with the Major industry technology
+                            developers and scientists and holds especial deal with
+                            manufacturers to serve our customers as one stop shop. Our presence, in the heart of Western
+                            Europe, has brought to us an endless
+                            opportunities to our business model.”
+                        </p>
+                    </div>
+                    <div class="about-content about-photo">
+                        <p class="text-center">Jasper engineering team </p>
+                        <img src="images/sub-pic.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="main-category">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title">Get in touch</h1>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2>Contact information</h2>
+                    <p>Fill in the form and our team will get back to you within 1-2 days.
+                        <br><br>
+                        You can also reach us by mail at: <span class="content-highlight">support@jaacor.com</span>
+
+                    </p>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="form-row">
+                            <label>
+                                Name
+                                <input type="text" name="name" placeholder="Put your name here ..." />
+                            </label>
+                            <label>
+                                Last Name
+                                <input type="text" name="name" placeholder="Put your last name here ..." />
+                            </label>
+                        </div>
+                        <label class="email-label">
+                            Email
+                            <input class="email-input" type="text" name="email" placeholder="Put your name here ..." />
+                        </label>
+                        <label class="email-label">
+                            Message
+                            <textarea placeholder="Write a message ..." rows="12"></textarea>
+                        </label>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>©2022 Volt Repair Group. All rights reserved.</p>
+        </div>
+    </footer>
+   
+   
+
+</body>
+
+</html>
